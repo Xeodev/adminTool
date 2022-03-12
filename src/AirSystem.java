@@ -11,6 +11,7 @@ public class AirSystem {
     }
 
     public AirSystem(int velocity, int capacity, double mass, String type) {
+        super();
         this.velocity = velocity;
         this.capacity = capacity;
         this.mass = mass;
